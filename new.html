@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="margin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Dev Practice - contact form</title>
+    <h1 colour>Jahnvi Srivastav</h1>
+    <h2> Hello!</h2>
+        <h3>I am a web developer and coder!</h3>
+</head>
+<body>
+<div class ="contact">
+<h1>Contact Me</h1>
+<form action="">
+    <p>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+
+    </p>
+    <p>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+    </p>
+    <p>
+        <label for="message">Details:</label>
+        <input type="message" name="message" id="message">   </p>
+
+    <p>
+        <button id="submit">Submit</button>
+    </p>
+</form>
+</div>
+<div class="choice">
+    <p>What do you prefer ?</p>
+    <form action="/prefer", class ="preference">
+    <input type="radio" name="prefer" id = "coding" value="Coding">
+    <label for="coding">Coding</label>
+    <input type="radio" name="prefer" id = "reading" value="Reading">
+    <label for="reading">Reading</label>
+    <input type="radio" name="prefer" id = "gaming" value="Gaming">
+    <label for="gaming">Gaming</label>
+    <input type="radio" name="prefer" id = "swimming" value="Swimming">
+    <label for="swimming">Swimming</label>
+</form>
+</div>
+
+<div>
+<h2>Hijacking Searching</h2>
+
+<form action ="https://www.reddit.com/search" class ="searches" >
+    <h3>Search on REDDIT</h3>
+    <input type"text" name ="q" placeholder="Search on Reddit">
+    <button type="submit">Search</button>
+</form>
+
+<form action ="https://www.google.com/search" class ="searches">
+    <h3>Search on GOOGLE</h3>
+    <input type"text" name ="q" placeholder="Search on Google">
+    <button type="submit">Search</button>
+</form>
+
+<form action ="https://www.youtube.com/results" class ="searches" >
+    <h3>Search on Youtube</h3>
+    <input type="text" name="search_query" placeholder="Search on YouTube">
+    <button type="submit">Search</button>
+</form>
+
+</div>
+</body>
+</html>

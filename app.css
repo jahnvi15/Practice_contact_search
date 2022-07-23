@@ -1,0 +1,70 @@
+
+h1{
+    color: #fafafa;
+    text-align : center;
+    font-weight: 4000;
+    font-size: 60px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    
+}
+h2{
+    color: #ffffff;
+    text-align : center;
+    font-size: 30px;
+    font-family: Copperplate;
+
+}
+h3{
+    color: #ffbaba;
+    text-align: center;
+    font-size: 35px;
+}
+p{
+    color: #ffe7e7fc;
+    font-size: 30px;
+    text-align: center;
+}
+button{
+    color: #F0A7A0;
+    background: #05299E;
+}
+
+.preference{
+    text-align: center;
+}
+input[type="radio"]{
+    margin-left: 20px;
+    
+    background-color: #cff058;
+}
+.preference label{
+    color:#ff9bff;
+    ;
+   }
+.preference p{
+    color: #98b9fa;
+    font-size: 40px;
+    font-family: Copperplate;
+    font-weight: bolder;
+}
+
+
+
+body{
+    background: url("blackk.jpg") no-repeat center/cover;
+    backdrop-filter: saturate(1);
+}
+img{
+    width: 40%;
+    height: 10%;
+    margin-left: 30%;
+    border-radius: 5%;
+    border: 3px solid ; 
+}
+
+input[type="radio"]+label:hover{
+    color: #71f1fa ;
+}
